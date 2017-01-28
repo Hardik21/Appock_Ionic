@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/* Empty. Add your own CSS if you like */
+@media (max-width: 767px){
+	body{
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		margin:0 auto;
+		padding:0px;
+	}
+	.mobile-wrapper {
+		
+	}
+	.slider-block {
+		text-align: center;
+		padding: 30px 0;
+		height: 100vh;
+	}
+	.slider-block img {
+		max-width: 300px;
+	}
+	.slider-uptext {
+		font-size: 14px;
+		font-weight: 300;
+		color: #ffffff;
+		text-align: center;
+		margin: 30px 0 100px 0;
+	}
+	.slider-one {
+		background: #C13B3C;
+	}
+	.slider-two{
+		background:#00A397;
+	}
+	.slider-three{
+		background:#2F6466;
+	}
+	
+    .default-btn {
+		display: inline-block;
+		width: 300px;
+		height: 50px;
+		padding: 12px;
+		border-radius: 50px;
+		background-color: rgba(0,0,0,0);
+		color: #fff;
+		font-size: 16px;
+		line-height: 21px;
+		text-align: center;
+		letter-spacing: 1px;
+		text-decoration: none;
+		position:relative;
+	}
+	.default-btn i {
+		position: absolute;
+		right: 20px;
+		top: 14px;
+	}
+    .default-btn [class^="flaticon-"]:before{
+		font-size:16px;
+	}
+	.red-btn{
+		background-color: #781116;
+	}
+	.red-btn:hover{
+		color: #781116;
+	}
+	.darkblue-btn{
+		background:#005C50;
+	}
+	.darkblue-btn:hover{
+		color:#005C50;
+	}
+	.oracle-btn{
+		background:#134041;
+	}
+	.oracle-btn:hover{
+		color:#134041;
+	}
+	.default-btn:hover{
+		background-color: #ffffff;
+	}
+	.slider-pager {
+		bottom: 148px;
+	}
+	.slider-pager .slider-pager-page {
+		color: #fff;
+	}
+	.small-btn {
+		border-radius: 25px;
+		width: 120px;
+		height: 50px;
+		display: inline-block;
+		font-size: 16px;
+		color: #fff;
+		line-height: 50px;
+		margin-bottom: 14px;
+		font-weight:300;
+	}
+	.slider-three .slider-uptext {
+		margin: 15px 0 35px 0;
+	}
+	.left-bar{
+		background:#C13B3C;
+		top: 84px;
+	}
+	.left-bar .item {
+		background-color: #C13B3C;
+		border:0px solid #ffffff;
+	}
+	.left-bar  .item-content {
+		background-color: #C13B3C;
+		color:#ffffff;
+		font-weight:300;
+	}
+	.left-bar  .list [class^="flaticon-"]:before{
+		margin-left:0px;
+		margin-right:15px;
+	}
+	.line-bar {
+		border: 1px solid #CA867F;
+		width: 100%;
+		display: inline-block;
+	}
+	.menu-text {
+		color: #ffffff;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+	.top-menu {
+		height: auto;
+		background: url(../img/menu-up-bg.png) no-repeat left top!important;
+		background-size: 100%;
+	}
+	.user-block {
+		display: table;
+	}
+	.user-img {
+		float: left;
+		padding-left: 15px;
+	}
+	.user-img img {
+		max-width: 70px;
+	}
+	.user-text {
+		color: #ffffff;
+		padding: 15px 0 0 15px;
+		float: left;
+		width: 130px;
+	}
+	img{
+		width:100%;
+	}
+	.toggle-menu-btn {
+		position: absolute;
+		right: 10px;
+		width: 35px;
+		height: 35px;
+		background: #861A1A;
+		border-radius: 50%;
+		text-align: center;
+		bottom: 10px;
+		color: #fff;
+	}
+	.toggle-menu-btn [class^="flaticon-"]::before{
+		margin-left: 0px;
+		line-height: 36px;
+	}
+	[nav-bar-transition="ios"] [nav-bar="active"] .bar {
+		background: #B42D2C;
+		color: #fff;
+		border: 0px solid #fff;
+	}
+	.top-bar-btn {
+		color: #fff !important;
+	}
+	.top-bar-text{
+		color: #fff !important;
+	}
+	.right-buttons .button-icon {
+		color: #fff;
+	}
+	.right-buttons [class^="flaticon-"]::before, .right-buttons button-icon::before{
+		margin-left: 0px;
+		font-size:16px;
+	}
+	.right-buttons  .button.button-icon::before{
+		font-size:18px !important;
+	}
+	.search-input {
+		background: #fff;
+		position: absolute;
+		z-index: 1111111111111111111;
+		right: 0;
+		top: 10px;
+	}
+	
+}

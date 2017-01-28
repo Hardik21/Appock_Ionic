@@ -1,0 +1,78 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon top-bar-btn" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-stable top-menu">
+            <div class="user-block">
+                <div class="user-img">
+                    <img src="img/user.png" alt="" />
+                </div>
+                <div class="user-text">
+                    <p>Olá, Alexandre Seja bem-vindo!</p>
+                </div>
+            </div>
+            <a class="toggle-menu-btn" ion-button ng-click="openSubMenu()"> <i ng-class="IsSubMenu==true?'flaticon-arrow':'flaticon-arrows-2'"></i></a>
+        </ion-header-bar>
+        <ion-content class="left-bar">
+            <ion-list ng-show='IsSubMenu'>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-black-2"></i> Editar meu perfil
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-open"></i> Alterar senha
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-shapes"></i> Cancelar conta
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-close"></i> Sair
+                </ion-item>
+
+            </ion-list>
+            <ion-list ng-hide='IsSubMenu'>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-social"></i> Adicione um artista
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-music"></i> Artistas
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-people"></i> Produtores
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-search"></i> Pesquisar
+                </ion-item>
+                <span class="line-bar"></span>
+                <p class="menu-text">
+                    Opções para usuários registrados
+                </p>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-social-1"></i> Avaliar aplicativo
+                </ion-item>
+                <span class="line-bar"></span>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-interface-1"></i> Anuncie
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-info"></i> Sobre o ShowBusiness
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-black"></i> Revista ShowBusiness Online
+                </ion-item>
+                <ion-item menu-close href="javascript:void(0)">
+                    <i class="flaticon-cellphone"></i> Meus contatos favoritos
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
