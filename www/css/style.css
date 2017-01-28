@@ -187,6 +187,19 @@
 	.right-buttons  .button.button-icon::before{
 		font-size:18px !important;
 	}
-	
+	.search-input {
+		background: #fff;
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		top: 10px;
+	}
+	.mfb-component__button--child  [class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+		margin-left:0px;
+		font-size: 28px;pho
+	}
+	[nav-bar-transition="android"] [nav-bar="active"] .bar, [nav-bar-transition="android"] [nav-bar="entering"] .bar {
+		background: #B42D2C;
+	}
 	
 }
