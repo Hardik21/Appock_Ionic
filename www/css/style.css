@@ -187,12 +187,6 @@
 	.right-buttons  .button.button-icon::before{
 		font-size:18px !important;
 	}
-	.search-input {
-		background: #fff;
-		position: absolute;
-		z-index: 1111111111111111111;
-		right: 0;
-		top: 10px;
-	}
+	
 	
 }
